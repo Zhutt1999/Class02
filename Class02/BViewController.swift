@@ -10,7 +10,7 @@ import UIKit
 
 class BViewController: UIViewController {
 
-    @IBOutlet weak var IbMsg: UITextField!
+    @IBOutlet weak var IbBMsg: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,9 +18,9 @@ class BViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func btnTestClicked(_ sender: UIButton) {
+    @IBAction func btnBClicked(_ sender: UIButton) {
         print("我按了啥？")
-        IbMsg.text="我要牛奶糖"
+        IbBMsg.text="我要牛奶糖"
     }
 
     /*
