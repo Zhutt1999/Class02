@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2EDA5422D4229700A83BF0 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EDA5322D4229700A83BF0 /* AViewController.swift */; };
+		7A2EDA5622D422CB00A83BF0 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EDA5522D422CB00A83BF0 /* BViewController.swift */; };
 		7A93E7AF22D09B3C00A960AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93E7AE22D09B3C00A960AC /* AppDelegate.swift */; };
 		7A93E7B122D09B3C00A960AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93E7B022D09B3C00A960AC /* ViewController.swift */; };
 		7A93E7B422D09B3C00A960AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A93E7B222D09B3C00A960AC /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A2EDA5322D4229700A83BF0 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		7A2EDA5522D422CB00A83BF0 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		7A93E7AB22D09B3C00A960AC /* Class02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Class02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A93E7AE22D09B3C00A960AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A93E7B022D09B3C00A960AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				7A93E7B522D09B3D00A960AC /* Assets.xcassets */,
 				7A93E7B722D09B3D00A960AC /* LaunchScreen.storyboard */,
 				7A93E7BA22D09B3D00A960AC /* Info.plist */,
+				7A2EDA5322D4229700A83BF0 /* AViewController.swift */,
+				7A2EDA5522D422CB00A83BF0 /* BViewController.swift */,
 			);
 			path = Class02;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A93E7B122D09B3C00A960AC /* ViewController.swift in Sources */,
+				7A2EDA5622D422CB00A83BF0 /* BViewController.swift in Sources */,
+				7A2EDA5422D4229700A83BF0 /* AViewController.swift in Sources */,
 				7A93E7AF22D09B3C00A960AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
